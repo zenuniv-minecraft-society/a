@@ -1,69 +1,64 @@
-# ZEN大学 マイクラサークル
+# ZEN大学マイクラサークル
 
-## 概要
+ZEN大学のMinecraftサークルです。
 
-Minecraftに関心のある人々で構成されたコミュニティです。
+※ このドキュメントは未完成です。
 
-ZEN大学最大級のサークルであり、slackチャンネルには約250名のメンバーがいます。
+このページは概要であり、詳しい情報は [docs/README.md](docs/README.md) にあります。
 
-## 活動場所
+## どんな場所か
 
-slackチャンネルとdiscordサーバーが存在します。
+Minecraftを楽しむ人々が集まる場所です。
 
-基本的にdiscordサーバーで活動しており、slackチャンネルはほとんど告知のみとなっています。
+サバイバルで集まる日もあれば、建築、探索、ミニゲーム、開発、サーバー調整をする日もあります。
 
-## 最新情報の確認方法
+普段の活動はDiscordが中心です。Slackは大学内の入口と告知、GitHubは後から見返す情報置き場として使います。新しい情報についてはDiscordを確認してください。
 
-discordサーバーのお知らせ、またはこのリポジトリのtimelineをご確認ください。
+## 参加する
 
-## mc.lkjsxc.com
+初参加なら、まず [docs/community/onboarding.md](docs/community/onboarding.md) を読みましょう。
 
-対応エディション：Java, Bedrock
+サーバーの一覧は [docs/servers/catalog.md](docs/servers/catalog.md) にあります。
 
-対応バージョン：1.21.11（おおよそ最新）
+接続できない、どこを見ればよいかわからない、エラーが出る、という場合は [docs/operations/status-and-support.md](docs/operations/status-and-support.md) を見て、Discordで状況を共有しましょう。
 
-Java版のサーバーをBedrock版でも参加できるように拡張しています。
+## サーバー
 
-Bedrockのポートは19132になります。
+サークルでは複数のMinecraftサーバーを扱います。
 
-## 定期イベント
+主なサーバー情報:
 
-毎週木曜日、21時開催の定期イベントがあります。
+- [docs/servers/catalog.md](docs/servers/catalog.md): サークル関連サーバーの一覧
+- [docs/servers/lkjmc/README.md](docs/servers/lkjmc/README.md): メインのMinecraftサーバー `lkjmc`
+- [docs/servers/lkjmc/lkjmcsmp.md](docs/servers/lkjmc/lkjmcsmp.md): `lkjmc` 内のサバイバルSMP `lkjmcsmp`
 
-## lkjmc
+## イベント
 
-サバイバルサーバーです。
+定期イベントは毎週木曜 `21:00 JST` に開催されます。内容はサバイバル、建築、探索、ミニゲーム、配布ワールドなど、多岐に渡ります。
 
-mc.lkjsxc.com から参加できます。
+イベントの基本形は [docs/events/regular-events.md](docs/events/regular-events.md)、企画時のチェック項目は [docs/events/planning.md](docs/events/planning.md) にあります。
 
-自家製のプラグインによって、SMP風の要素が追加されています。
+終了したイベントや残しておきたい活動は [docs/activity/timeline/README.md](docs/activity/timeline/README.md) に記録されることになっています。
 
-foliaで動作しているため、大型の装置もおおよそ動作します。
+## 運営と連絡
 
-## 権限
+管理人、副管理人、運営、メンバーのように分類されます。
 
-注意：この章はまだ描き途中です。
+- 役割の責任範囲: [docs/community/roles.md](docs/community/roles.md)
+- 連絡場所の使い分け: [docs/community/channels.md](docs/community/channels.md)
 
-### 管理人
+## ドキュメントの見方
 
-サークル長です。すべての権限を持ちます。
+よく見る場所:
 
-### 副管理人
+- 全体目次: [docs/README.md](docs/README.md)
+- 初参加者向け: [docs/community/onboarding.md](docs/community/onboarding.md)
+- サーバー一覧: [docs/servers/catalog.md](docs/servers/catalog.md)
+- 活動記録: [docs/activity/README.md](docs/activity/README.md)
+- 運用・問い合わせ: [docs/operations/README.md](docs/operations/README.md)
+- 構造や方針のメモ: [docs/decisions/README.md](docs/decisions/README.md)
+- 用語と参照元: [docs/reference/README.md](docs/reference/README.md)
 
-数人います。
+## リポジトリの編集
 
-管理人を支える役割を持ちます。
-
-discordサーバーにて、とても強い権限を持っています。
-
-### 運営
-
-数人います。
-
-主体性をもってコミュニティを支えます。
-
-### メンバー
-
-たくさんいます。
-
-コミュニティを支えます。
+詳しいワークフローは [docs/repository/workflow.md](docs/repository/workflow.md) にあります。
